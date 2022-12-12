@@ -12,38 +12,49 @@
 </head>
 <header>
   <div class="nav-bar">
-    <div class="nav-bar-logo">mdn web docs</div>
+    <div class="nav-bar-logo"><img src="images/mdn-logo.png"></div>
     <div class="nav-bar-icon"><i class="fa-solid fa-bars"></i></div>
   </div>
 
-  <div class="bar">
-    <span><i class="fa-solid fa-rectangle-list"></i></span>
-    <div>Guides > HTML</div>
-    <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+  <div class="bar-container">
+    <div class="bar-wrapper">
+      
+      <div class="bar">
+        <div class="bar-list-icon"><i class="fa-solid fa-rectangle-list"></i></div>
+        <div class="guides">Guides > HTML</div>
+        <div class="menu"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+      </div>
+    </div>
+  </div>
   </div>
 </header>
 
 <body>
-  <main>
-    <section>
+
+  <main id="content" class="main-content">
+    <h1>Structuring the web with HTML</h1>
       <article class="main-page-content">
-        <section class="structure">
-          <h1>Structuring the web with HTML</h1>
+        
+
+        <section class="section-content-wrapper">
+
           <div class="section-content">
             <p>To build websites, you should know about HTML — the fundamental technology used to define the structure
               of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list,
               heading, link, image, multimedia player, form, or one of many other available elements or even a new
               element that you define.</p>
+
             <div class="section-content-div">
-              <h3>Looking to become a front-end web developer?</h3>
+              <p>Looking to become a front-end web developer?</p>
               <p>We have put together a course that includes all the essential information you need to work towards your
                 goal.</p>
               <p><a href="#">Get started</a></p>
             </div>
+
           </div>
+
         </section>
       </article>
-    </section>
   </main>
 </body>
 <footer>
